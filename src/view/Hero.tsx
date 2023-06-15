@@ -1,7 +1,7 @@
 import React from "react";
 import { Badge } from "../../components/ui/badge";
 import { Button } from "components/ui/button";
-import heroImage from "/public/hero-img.webp";
+import heroImage from "../../public/hero-img.webp";
 import Image from "next/image";
 import { ShoppingCart } from "lucide-react";
 import Bazar from "../../public/bazar.webp";
@@ -39,7 +39,7 @@ const Hero = () => {
       <div className="flex-1">
         <div className="relative flex mx-auto">
           <div className="md:bg-[#ECCDB4] md:rounded-full w-[500px] h-[500px] absolute ml-10"></div>
-          <div className="hidden md:pt-0 md:absolute md:-mt-4">
+          <div className="hidden md:pt-0 md:absolute md:-mt-4 md:block">
             <Image src={heroImage} alt="hero" />
           </div>
         </div>
