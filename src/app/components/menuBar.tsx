@@ -7,7 +7,7 @@ import {
   MenubarMenu,
   MenubarTrigger,
 } from "../../../components/ui/menubar";
-import menubar from "/public/menubar.svg";
+
 import { ShoppingCart } from "lucide-react";
 
 export function MenubarDemo() {
